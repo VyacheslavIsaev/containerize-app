@@ -1,2 +1,7 @@
 ---
 # defaults file for containerize-app
+app_name: AppName
+app_ports: []
+app_maintainer: ""
+app_image_name: "{{app_name}}:latest"
+docker_file: ".Dockerfile"
