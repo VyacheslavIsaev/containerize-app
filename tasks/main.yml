@@ -1,6 +1,4 @@
 ---
-# tasks file for containerize-app
----
 # tasks file for containerize-py-app
 - name: Copying application
   copy:
