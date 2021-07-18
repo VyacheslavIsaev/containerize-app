@@ -1,5 +1,8 @@
 ---
 # tasks file for containerize-py-app
+- name: Creating service folder "{{app_path}}"
+  file: path="{{app_path}}" state=directory
+
 - name: Copying files
   copy: 
     src: "{{item}}"
