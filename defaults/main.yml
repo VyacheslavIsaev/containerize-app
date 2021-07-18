@@ -6,3 +6,4 @@ app_maintainer: ""
 app_image_name: "{{app_name}}:latest"
 docker_file: ".Dockerfile"
 app_path: "/opt/{{app_name}}"
+app_src_list: []
